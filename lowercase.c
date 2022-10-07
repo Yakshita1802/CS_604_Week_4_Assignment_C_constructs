@@ -11,7 +11,7 @@ int main(void) {
   /* I am using for loop to convert upper case meggage to lower case message 
     */
   int i = 50; // declair the variable for 50
-  for(i=0; u[i] > 50; i++)
+  for(i=0; u[i] > '\0'; i++)
     {
         if(u[i]>='A' && u[i]<='Z')
         {
